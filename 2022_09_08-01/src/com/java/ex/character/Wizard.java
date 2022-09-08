@@ -10,6 +10,11 @@ public class Wizard {
 	private int agil;
 	private int money;
 	
+	/* 생성자의 매개변수 값을 잘 맞춰야함
+	public Wizard() {
+
+	}
+    */
 	// 생성자를 사용하여 값을 최화 시킴
 	public Wizard(String name, int intel, int strenth, int agil) {
 		this.name = name;

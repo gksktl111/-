@@ -6,6 +6,7 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		Wizard wiz1 = new Wizard("반장", 30, 100, 50);
+		//Wizard wiz2 = new Wizard();  생성자의 매개변수 값을 잘 맞춰야함
 		System.out.print("Hp : " + wiz1.getHp());
 	}
 
