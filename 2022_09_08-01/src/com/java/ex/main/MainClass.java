@@ -5,10 +5,8 @@ import com.java.ex.character.Wizard; // 다른 패키지에 있으므로 import�
 public class MainClass {
 
 	public static void main(String[] args) {
-		Wizard wiz1 = new Wizard();
-		Wizard wiz2 = new Wizard();
-		
-		
+		Wizard wiz1 = new Wizard("반장", 30, 100, 50);
+		System.out.print("Hp : " + wiz1.getHp());
 	}
 
 }

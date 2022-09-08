@@ -10,6 +10,14 @@ public class Wizard {
 	private int agil;
 	private int money;
 	
+	// 생성자를 사용하여 값을 최화 시킴
+	public Wizard(String name, int intel, int strenth, int agil) {
+		this.name = name;
+		this.intel = intel;
+		this.strenth = strenth;
+		this.agil = agil;
+		System.out.println("전사가 생성되었습니다");
+	}
 
 	public String getName() {
 		return name;
