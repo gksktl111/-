@@ -17,8 +17,9 @@ public class Wizard {
   
 	
 	// 생성자를 사용하여 값을 최화 시킴
-	public Wizard(String name, int intel, int strenth, int agil) {
+	public Wizard(String name,int intel, int strenth, int agil) {
 		this.name = name;
+		this.level = 1;
 		this.intel = intel;
 		this.strenth = strenth;
 		this.agil = agil;
@@ -86,5 +87,10 @@ public class Wizard {
 
 	public void setMoney(int money) {
 		this.money = money;
+	}
+	
+	public int calDamage() {
+		int cal = ((intel * 3) + (agil * 2) + (strenth * 1)) * level;
+		return cal;
 	}
 }
