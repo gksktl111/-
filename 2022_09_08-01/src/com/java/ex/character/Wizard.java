@@ -10,11 +10,12 @@ public class Wizard {
 	private int agil;
 	private int money;
 	
-	/* 생성자의 매개변수 값을 잘 맞춰야함
+	// 생성자의 매개변수 값을 다르게 하여 생성자 오버로딩 사용가능
 	public Wizard() {
-
+		System.out.println("아무것도 입력안한 전사 생성일 때 할 일들을 작성");
 	}
-    */
+  
+	
 	// 생성자를 사용하여 값을 최화 시킴
 	public Wizard(String name, int intel, int strenth, int agil) {
 		this.name = name;
