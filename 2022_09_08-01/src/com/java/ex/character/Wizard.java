@@ -23,7 +23,6 @@ public class Wizard {
 		this.intel = intel;
 		this.strenth = strenth;
 		this.agil = agil;
-		System.out.println("전사가 생성되었습니다");
 	}
 
 	public String getName() {
@@ -89,7 +88,7 @@ public class Wizard {
 		this.money = money;
 	}
 	
-	public int calDamage() {
+	public int WizardCalDamage() {
 		int cal = ((intel * 3) + (agil * 2) + (strenth * 1)) * level;
 		return cal;
 	}
